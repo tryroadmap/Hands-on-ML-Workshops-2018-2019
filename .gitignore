@@ -1,6 +1,8 @@
-# Rmd files
+# Rmd and OS files
 .html
-
+.nb.html
+*.html
+.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
