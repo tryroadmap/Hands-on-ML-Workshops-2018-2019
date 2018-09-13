@@ -1,7 +1,11 @@
-#@author: Romeo Kienzler
-#This file is copyright protected - do not redistribute
+---
+title: "R Notebook"
+output: html_notebook
+---
 
 
+
+```{r}
 library(h2o)
 localH2O =h2o.init(nthreads = -1)
 #Data can be downloaded here: https://www.kaggle.com/c/digit-recognizer/data
@@ -16,6 +20,9 @@ for(i in 1:100){
 }
 
 
+```
+
+```{r}
 mfile = '....train.csv'
 
 MDIG = h2o.importFile(path = mfile,sep=',')
@@ -56,4 +63,12 @@ bad = length(truthVector[truthVector==FALSE])
 good/(good+bad)
 
 
+
+
+```
+
+```{r}
+# Hoofar Pourzand, from Parallel Computing in R workshops, PennState, 2011
+# Romeo Kienzler, Data Science in R
+```
 

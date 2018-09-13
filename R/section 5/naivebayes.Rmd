@@ -1,6 +1,10 @@
-#@author: Romeo Kienzler
-#This file is copyright protected - do not redistribute
+---
+title: "R Notebook"
+output: html_notebook
+---
 
+
+```{r}
 
 library(tm)
 library(e1071)
@@ -24,6 +28,10 @@ for (fileName in file_list){
   df=rbind(df,data.frame(text,stringsAsFactors = FALSE))
 }
 
+
+```
+
+```{r}
 #we have now 2500 emails in the data frame
 dim(df)
 
@@ -42,7 +50,10 @@ sms_train <- DocumentTermMatrix(spam_corpus_train, control=list(dictionary = fiv
 
 sms_test <- DocumentTermMatrix(spam_corpus_test, control=list(dictionary = five_times_words))
 
+```
 
+
+```{r}
 convert_count <- function(x) {
   y <- ifelse(x > 0, 1,0)
   y <- factor(y, levels=c(0,1), labels=c("No", "Yes"))
@@ -58,5 +69,8 @@ truthVector = pred == labels[1251:2500]
 good = length(truthVector[truthVector==TRUE])
 bad = length(truthVector[truthVector==FALSE])
 good/(good+bad)
+```
 
 
+Hoofar Pourzand, from Parallel Computing in R workshops, PennState, 2011
+Romeo Kienzler, Data Science in R

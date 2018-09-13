@@ -1,3 +1,11 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+
+```{r}
 #@author: Romeo Kienzler
 #This file is copyright protected - do not redistribute
 
@@ -68,4 +76,11 @@ while (TRUE) {
   }
   tsDataPrev=tsData;
 }
+
+
+
+```
+
+Hoofar Pourzand, from Parallel Computing in R workshops, PennState, 2011
+Romeo Kienzler, Data Science in R
 
