@@ -18,7 +18,7 @@ Bike Sharing Demand was a demand prediction competition hosted on Kaggle with an
 
 
 
-This presentation is from Overfilling for Polite Data Scientists Series that combines the power of Kaggle and its publicly available Data and Kernels with the computing resources hosted by Amazon computing network knowns at AWS or Amazon Web Services. In each presentation, competing models sharing a common Data are being ran and their results are being discussed.
+This presentation is from Overfitting for Polite Data Scientists Series that combines the power of Kaggle and its publicly available Data and Kernels with the computing resources hosted by Amazon computing network knowns at AWS or Amazon Web Services. In each presentation, competing models sharing a common Data are being ran and their results are being discussed.
 
 
 ## For Who:
