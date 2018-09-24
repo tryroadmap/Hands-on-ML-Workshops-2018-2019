@@ -22,7 +22,7 @@ This presentation is from Overfilling for Polite Data Scientists Series that com
 
 
 ## For Who:
-Either of the two following groups should find the presentation useful and the network valuable:
+Either of the following groups should find the presentation useful and the networking made possible by our hosting partners valuable:
 
 Audience from Technical backgrounds in Data Engineering, Statistics or Computer Science background will see few winning models from Kaggle compete.
 
