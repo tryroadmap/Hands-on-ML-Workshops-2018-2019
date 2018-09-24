@@ -11,7 +11,8 @@ Wednesday, September 26th
 ### End Time
 5:30 PM
 ## Description
-Bike Sharing Demand was a demand prediction competition hosted on Kaggle with an interesting dataset from CapitalBikes. Many submit their models and in this kickoff Meetup we will discuss few winning models from the perspective of overfitting. (The slides will be uploaded on here after the session.)[https://www.github.com/lotusaigroup/LAN]
+Bike Sharing Demand was a demand prediction competition hosted on Kaggle with an interesting dataset from CapitalBikes. Many submit their models and in this kickoff Meetup we will discuss few winning models from the perspective of overfitting.
+[The slides will be uploaded on here after the session.](https://github.com/lotusxai/LAN-Workshops)
 
 
 This presentation is from Overfilling for Polite Data Scientists Series that combines the power of Kaggle and its publically available Data and Kernels with the computing resources hosted by Amazon computing network knowns at AWS or Amazon Web Services. In each presentation, competing models sharing a common Data are being ran and their results are being discussed.
