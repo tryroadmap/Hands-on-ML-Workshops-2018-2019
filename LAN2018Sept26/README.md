@@ -1,4 +1,3 @@
-![Header Image for LAN ](./img/lan_overfitting.png)
 # LAN 2018 AI@Philadelphia
 ## Meetup Title
 Demand Prediction Models and the Dangers of Overfitting
@@ -20,6 +19,7 @@ Bike Sharing Demand was a demand prediction competition launched on Kaggle in 20
 [You can follow the discussion from the binder link here.](https://mybinder.org/v2/gh/lotusxai/LAN-Workshops/master?filepath=LAN2018Sept26%2FLAN2018SepBSharing.ipynb)
 
 
+![Header Image for LAN ](./img/lan_overfitting.png)
 
 This presentation is from **Overfitting for the Polite Data Scientists** Series that combines the power of Kaggle and its publicly available Data and Kernels with the computing resources hosted by Amazon computing network knowns at AWS or Amazon Web Services. In each presentation, competing models sharing a common Data are being ran and their results are being discussed.
 
