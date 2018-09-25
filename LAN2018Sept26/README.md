@@ -1,4 +1,4 @@
-![Header Image for LAN ](img/lan_overfitting)
+![Header Image for LAN ](./img/lan_overfitting)
 # LAN 2018 AI@Philadelphia
 ## Meetup Title
 Demand Prediction Models and the Dangers of Overfitting
@@ -16,7 +16,7 @@ Wednesday, September 26th
 ## Description
 Bike Sharing Demand was a demand prediction competition launched on Kaggle in 2016 with an interesting dataset from CapitalBikes. Many submit their models to win the awards and some made their script public after the submission deadline was over. For this year LAN Meetup kickoff we will discuss few winning models from the perspective of overfitting.
 [The slides will be uploaded on here after the session.](https://github.com/lotusxai/LAN-Workshops)
-[You can follow the discussion from the binder link here.]()
+[You can follow the discussion from the binder link here.](https://mybinder.org/v2/gh/lotusxai/LAN-Workshops/master?filepath=LAN2018Sept26%2FLAN2018SepBSharing.ipynb)
 
 
 
