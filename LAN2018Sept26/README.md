@@ -1,4 +1,4 @@
-![Header Image for LAN ](./img/lan_overfitting)
+![Header Image for LAN ](./img/lan_overfitting.png)
 # LAN 2018 AI@Philadelphia
 ## Meetup Title
 Demand Prediction Models and the Dangers of Overfitting
