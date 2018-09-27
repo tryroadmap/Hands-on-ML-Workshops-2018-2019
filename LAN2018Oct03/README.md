@@ -1,6 +1,6 @@
 # LAN 2018 AI@Philadelphia
 ## Meetup Title
-Free Data Science Course: Ensemble Methods
+AWS + AI: Ensemble Methods Pipeline Using Sparklyr and EMR
 ## Where
 TBD
 
