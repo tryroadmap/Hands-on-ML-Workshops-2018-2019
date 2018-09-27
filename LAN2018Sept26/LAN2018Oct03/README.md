@@ -25,7 +25,8 @@ Wednesday, October 3rd
 * Model Interpretability
 * Overfitting & Ensemble Techniques
 * CPU Utilization
-* Rstudio Sparklyr & Amazon EMR
+* Rstudio Sparklyr
+* Amazon EMR
 
 
 
