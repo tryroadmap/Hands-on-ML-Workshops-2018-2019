@@ -1,6 +1,6 @@
 # LAN 2018 AI@Philadelphia
 ## Meetup Title
-State of the Art Streaming Learning with Vowpal Wobbit: PhillyTalent AI
+State of the Art Streaming Learning with Vowpal Wabbit: PhillyTalent AI
 ## Where
 TBD
 
