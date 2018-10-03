@@ -154,4 +154,8 @@ WITH SERDEPROPERTIES
 STORED AS TEXTFILE;
 
 # Load data into table
-LOAD DATA INPATH '/user/rstudio-user/airports' INTO TABLE airports;
+LOAD DATA INPATH '/user/rstudio-user/airports' INTO TABLE airports; #123534969 Time taken:44.881 seconds
+
+#some queries
+SELECT COUNT(*) FROM flights; #4983 Time taken:35.75 seconds
+#hive install on master https://www.dezyre.com/hadoop-tutorial/install-hive
