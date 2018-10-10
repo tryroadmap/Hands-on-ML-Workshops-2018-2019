@@ -28,7 +28,7 @@ Computer Vision is a big field and [one good reference to get started is from A.
 
 
 
-![Header Image for LAN ](./img/lan_overfitting.png)
+![Header Image for LAN ](./../LAN2018Oct03/img/lan_overfitting.png)
 
 This group meeting is from **Overfitting for the Polite Data Scientists** Series that combines the power of Kaggle and its publicly available Data and Kernels with the computing resources hosted by Amazon computing network knowns at AWS or Amazon Web Services. In each group meeting, competing models sharing a common Data are being ran and their results are being discussed. More information about the data and the slides are shared before hand to increase engagement and participations of anyone who shows-up.
 
