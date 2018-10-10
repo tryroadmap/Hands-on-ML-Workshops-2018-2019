@@ -2,7 +2,8 @@
 ## Meetup Title
 AWS + AI: Ensemble Methods Pipeline Using Sparklyr and EMR
 ## Where
-TBD
+[Updated here.](https://www.meetup.com/Leverage-AWS-Now-Philadelphia/)
+
 
 ## When
 Wednesday, October 3rd

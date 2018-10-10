@@ -2,22 +2,21 @@ install.packages("ggplot2", dependencies = TRUE)
 install.packages("dplyr", dependencies = TRUE)
 install.packages("sparklyr", dependencies = TRUE)
 # install.packages(c("ggplot2", "dplyr", "sparklyr"), dependencies = TRUE) # rest omitted
+install.packages(c("nycflights13", "Lahman"))
 
-# Connect to Spark
-library(ggplot2)
-library(dplyr)
-library(sparklyr)
 
 
 #============================================
 # R Studio Beta
 #============================================
+# Connect to Spark
+library(ggplot2)
+library(dplyr)
+library(sparklyr)
 
 spark_install(version = "2.1.0")
 sc <- spark_connect(master = "local", version = "2.1.0")
 
-install.packages(c("nycflights13", "Lahman"))
-library(dplyr)
 
 flights_tbl <- copy_to(sc, nycflights13::flights, "flights")
 airlines_tbl <- copy_to(sc, nycflights13::airlines, 'airlines')
