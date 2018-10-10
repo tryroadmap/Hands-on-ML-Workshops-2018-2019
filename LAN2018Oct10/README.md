@@ -2,8 +2,7 @@
 ## Meetup Title
 Computer Vision and Deep Learning: King or Queen?
 ## Where
-TBD
-
+[Updated here.](https://www.meetup.com/Leverage-AWS-Now-Philadelphia/events/255154957/)
 ## When
 Wednesday, October 10th
 
