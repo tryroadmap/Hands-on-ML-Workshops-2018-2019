@@ -2,15 +2,15 @@
 ## Meetup Title
 Free: Practice for AWS Associate Level Certifications
 ## Where
-TBD
+Room 8I, WeWork 1900
 
 ## When
-Sunday, October 27
+Tuesday, October 30th
 
 ### Start Time
-4:30 PM
+6:00 PM
 ### End Time
-5:30 PM
+7:00 PM
 ## Description
 [Being Updated]
 [The slides will be uploaded on here after the session.](https://github.com/lotusxai/LAN-Workshops)

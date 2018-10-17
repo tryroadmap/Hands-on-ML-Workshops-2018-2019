@@ -5,7 +5,7 @@ State of the Art Streaming Learning with Vowpal Wabbit: PhillyTalent AI
 Room 8I
 
 ## When
-Wednesday, November 14
+Wednesday, November 28
 
 ### Start Time
 6:00 PM

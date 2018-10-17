@@ -2,10 +2,10 @@
 ## Meetup Title
 Free: Practice for AWS Associate Level Certifications
 ## Where
-WeWork (for updated specific location visit LAN Meatup page)
+WeWork 1601 Market St.(for updated specific room visit LAN Meetup page)
 
 ## When
-Sunday, October 27
+Tuesday, November 27th
 
 ### Start Time
 6:00 PM
