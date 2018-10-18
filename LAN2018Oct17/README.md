@@ -2,7 +2,7 @@
 ## Meetup Title
 State of the Art Streaming Learning with Vowpal Wabbit: PhillyTalent AI
 ## Where
-TBD
+Sansom Fine Afghan Kabob Cuisine
 
 ## When
 Wednesday, October 17
@@ -19,7 +19,8 @@ Wednesday, October 17
 ### Topics
 * Twitter Data: Identifying Influencers in a Social Network  
 * Streaming Learning and Memory Footprint
-* TBD
+* Lex: schedule an interview from Facebook chat (Lexbot)
+* Introduction to Raspberry Pi
 
 
 
@@ -37,3 +38,14 @@ Researchers and Professionals from Technical backgrounds in Data Engineering, St
 Secondly, the future talents that are coming from a diverse background, technically or ethnically, and are willing to re-generate the results and learn by-doing. This is the best way that I know to learn Data Science and with all the buzz that is going on in Machine Learning and Data Science I am aiming to build a content accessible for free. The codes will be made available here for your practice using LAN Github Repo and AWS resources. You won't need anything else besides a keen wanting for building and learn-by-doing. AWS and (recently Kaggle) account are available for Free and you can leverage these recourses from day one. The reproduction costs are based on Free Tier units on AWS and as of now are free (some conditions apply).
 
 Finally, Technical Recruiters and Marketing Guru who would like to learn about Streaming Learning and the few key players in the field.
+
+
+### Where to begin
+```
+aws lex-runtime post-text \
+    --region us-east-1 \
+    --bot-name ScheduleAppointmentDemo \
+    --bot-alias "\$LATEST" \
+    --user-id UserOne \
+    --input-text "i would like to schedule an interview"
+```
