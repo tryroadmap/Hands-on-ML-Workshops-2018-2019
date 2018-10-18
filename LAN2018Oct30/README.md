@@ -12,7 +12,7 @@ Tuesday, October 30th
 ### End Time
 7:00 PM
 ## Description
-[Being Updated]
+
 [The slides will be uploaded on here after the session.](https://github.com/lotusxai/LAN-Workshops)
 
 
