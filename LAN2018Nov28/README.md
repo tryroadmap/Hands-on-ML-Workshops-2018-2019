@@ -1,6 +1,6 @@
 # LAN 2018 AI@Philadelphia
 ## Meetup Title
-Free (Database): Practice for AWS Associate Level Certifications
+Hadoop EMR in action: Practice for AWS Associate Level Certifications
 ## Where
 Room 8I
 
@@ -16,7 +16,11 @@ Wednesday, November 28
 
 
 ### Topics
- 
+* codeDeploy or Remote Window for Java
+* hdfs: why another filesystem?
+* MapReduce: dissecting mapreduce components
+* Apache Pig: Million Song Dataset
+* Managing H5 files
 
 
 This group meeting is from **Certain about the Certification** Series that focuses on reviewing the contents from Architect and Developer Associate Certification Exam. Two Exams I've taken in 2017. In each training session, after going over few scenario problems that are common in the exams (designed and provided by LAN) we then leave with few questions from [trending questions on StackOverflow with AWS Tags](https://stackoverflow.com/questions/tagged/amazon-web-services)
