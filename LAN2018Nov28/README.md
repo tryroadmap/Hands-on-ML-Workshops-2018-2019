@@ -1,6 +1,6 @@
 # LAN 2018 AI@Philadelphia
 ## Meetup Title
-State of the Art Streaming Learning with Vowpal Wabbit: PhillyTalent AI
+Free (Database): Practice for AWS Associate Level Certifications
 ## Where
 Room 8I
 
@@ -17,23 +17,27 @@ Wednesday, November 28
 
 
 ### Topics
-* Twitter Data: Identifying Influencers in a Social Network  
-* Streaming Learning and Memory Footprint
-* TBD
+* AWS first products Overview: S3, SQS, EC2 and SimpleDB
+* Database Overview
+* Creating a DynamoDB Table
+* Query API calls on DynamoDB
+* Backup Multiple-AZ
+* RedShift
+* Elasticache
+* Aurora
+* Database Summary
+* What is SQS (optional)
+* LAN Scenario Questions  
 
 
 
-
-![Header Image for LAN ](./img/lan_overfitting.png)
-
-This group meeting is from **Overfitting for the Polite Data Scientists** Series that combines the power of Kaggle and its publicly available Data and Kernels with the computing resources hosted by Amazon computing network knowns at AWS or Amazon Web Services. In each group meeting, competing models sharing a common Data are being ran and their results are being discussed. More information about the data and the slides are shared before hand to increase engagement and participations of anyone who shows-up.
+This group meeting is from **Certain about the Certification** Series that focuses on reviewing the contents from Architect and Developer Associate Certification Exam. Two Exams I've taken in 2017. In each training session, after going over few scenario problems that are common in the exams (designed and provided by LAN) we then leave with few questions from [trending questions on StackOverflow with AWS Tags](https://stackoverflow.com/questions/tagged/amazon-web-services)
 
 
 ## For Who:
-This session is more technical than the first session but still either of the following groups should find the sessions useful:
 
-Researchers and Professionals from Technical backgrounds in Data Engineering, Statistics or Computer Science background will see few winning models from Kaggle compete.
+Researchers and Professionals from Technical backgrounds in Data Engineering, Statistics or Computer Science background will see few winning models from Kaggle compete. For November and December sessions more technical topics are marked in the Topic section. The Github Repo would be the best reference for the technical crowd to measure the technical level of the contents.
 
-Secondly, the future talents that are coming from a diverse background, technically or ethnically, and are willing to re-generate the results and learn by-doing. This is the best way that I know to learn Data Science and with all the buzz that is going on in Machine Learning and Data Science I am aiming to build a content accessible for free. The codes will be made available here for your practice using LAN Github Repo and AWS resources. You won't need anything else besides a keen wanting for building and learn-by-doing. AWS and (recently Kaggle) account are available for Free and you can leverage these recourses from day one. The reproduction costs are based on Free Tier units on AWS and as of now are free (some conditions apply).
+Technical Recruiters and Marketing Guru who would like to learn about Streaming Learning and the few key players in the field.
 
-Finally, Technical Recruiters and Marketing Guru who would like to learn about Streaming Learning and the few key players in the field.
+Finally, the future talents that are coming from a diverse background, technically or ethnically, and are willing to re-generate the results and learn by-doing. This is the best way that I know to learn Data Science and with all the buzz in Machine Learning and Data Science I am aiming to build a content that'll be accessible for free. The codes will be made available here for your practice using LAN Github Repo and AWS resources. LAN does provided IAM users to run the scripts on AWS when possible and if not, the reproduction costs are based on Free Tier units on AWS, except for few sessions, and as of now are free (some conditions apply).
