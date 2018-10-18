@@ -33,7 +33,8 @@ Wednesday, November 14
 
 ![Header Image for LAN ](./img/lan_overfitting.png)
 
-This group meeting is from **Overfitting for the Polite Data Scientists** Series that combines the power of Kaggle and its publicly available Data and Kernels with the computing resources hosted by Amazon computing network knowns at AWS or Amazon Web Services. In each group meeting, competing models sharing a common Data are being ran and their results are being discussed. More information about the data and the slides are shared before hand to increase engagement and participations of anyone who shows-up.
+
+This group meeting is from **Overfitting for the Polite Data Scientists** Series that combines the power of Kaggle and its publicly available Data and Kernels with the computing resources hosted by Amazon computing network knowns at AWS or Amazon Web Services. In each group meeting, competing models sharing a common Data are being run and their results are being discussed. More information about the data and the slides are shared beforehand to increase the engagement and participation of anyone who shows up.
 
 
 ## For Who:

@@ -12,23 +12,11 @@ Wednesday, November 28
 ### End Time
 7:00 PM
 ## Description
-[Being Updated]
 [The slides will be uploaded on here after the session.](https://github.com/lotusxai/LAN-Workshops)
 
 
 ### Topics
-* AWS first products Overview: S3, SQS, EC2 and SimpleDB
-* Database Overview
-* Creating a DynamoDB Table
-* Query API calls on DynamoDB
-* Backup Multiple-AZ
-* RedShift
-* Elasticache
-* Aurora
-* Database Summary
-* What is SQS (optional)
-* LAN Scenario Questions  
-
+ 
 
 
 This group meeting is from **Certain about the Certification** Series that focuses on reviewing the contents from Architect and Developer Associate Certification Exam. Two Exams I've taken in 2017. In each training session, after going over few scenario problems that are common in the exams (designed and provided by LAN) we then leave with few questions from [trending questions on StackOverflow with AWS Tags](https://stackoverflow.com/questions/tagged/amazon-web-services)
