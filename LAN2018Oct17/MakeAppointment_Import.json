@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "schemaVersion": "1.0",
+    "importType": "LEX",
+    "importFormat": "JSON"
+  },
+  "resource": {
+    "description": "Intent to book an interview appointment",
+    "rejectionStatement": {
+      "messages": [
+        {
+          "contentType": "PlainText",
+          "content": "Okay, I will not schedule an interview."
+        }
+      ]
+    },
+    "name": "MakeAppointment",
+    "version": "2",
+    "fulfillmentActivity": {
+      "type": "ReturnIntent"
+    },
+    "sampleUtterances": [
+      "I would like to book an appointment",
+      "Book an appointment",
+      "Book a {AppointmentType}",
+      "I'd like to book a phone call interview",
+      "I would like to have a phone call interview",
+      "Let's schedule an interview",
+      "Let's do a phone interview"
+    ],
+    "slots": [
+      {
+        "name": "AppointmentType",
+        "description": "The type of appointment being scheduled",
+        "slotConstraint": "Required",
+        "slotType": "AppointmentTypeValue",
+        "slotTypeVersion": "1",
+        "valueElicitationPrompt": {
+          "messages": [
+            {
+              "contentType": "PlainText",
+              "content": "What type of interview would you like to schedule?"
+            }
+          ],
+          "maxAttempts": 2
+        },
+        "priority": 1,
+        "sampleUtterances": [
+          "I would like a {AppointmentType}"
+        ]
+      },
+      {
+        "name": "Date",
+        "description": "The date to schedule the appointment",
+        "slotConstraint": "Required",
+        "slotType": "AMAZON.DATE",
+        "valueElicitationPrompt": {
+          "messages": [
+            {
+              "contentType": "PlainText",
+              "content": "When should I schedule your interview?"
+            },
+            {
+              "contentType": "PlainText",
+              "content": "When should I schedule your {AppointmentType}?"
+            },
+            {
+              "contentType": "PlainText",
+              "content": "{Time} on what day?"
+            },
+            {
+              "contentType": "PlainText",
+              "content": "A {AppointmentType} will take about [ExpectedDuration] minutes. What day works best for you?"
+            }
+          ],
+          "maxAttempts": 2
+        },
+        "priority": 2,
+        "sampleUtterances": []
+      },
+      {
+        "name": "Time",
+        "description": "The time to schedule the appointment",
+        "slotConstraint": "Required",
+        "slotType": "AMAZON.TIME",
+        "valueElicitationPrompt": {
+          "messages": [
+            {
+              "contentType": "PlainText",
+              "content": "At what time should I schedule your interview?"
+            },
+            {
+              "contentType": "PlainText",
+              "content": "At what time do you want to schedule the {AppointmentType}?"
+            },
+            {
+              "contentType": "PlainText",
+              "content": "At what time on {Date}?"
+            }
+          ],
+          "maxAttempts": 2
+        },
+        "priority": 3,
+        "sampleUtterances": []
+      }
+    ],
+    "confirmationPrompt": {
+      "messages": [
+        {
+          "contentType": "PlainText",
+          "content": "{Time} is available, should I go ahead and book your interview?"
+        },
+        {
+          "contentType": "PlainText",
+          "content": "[formattedTime] is available, should I go ahead and book your {AppointmentType}?"
+        }
+      ],
+      "maxAttempts": 2
+    },
+    "slotTypes": [
+      {
+        "description": "Type of interview appointment to schedule",
+        "name": "AppointmentTypeValue",
+        "version": "1",
+        "enumerationValues": [
+          {
+            "value": "screening"
+          },
+          {
+            "value": "technical"
+          },
+          {
+            "value": "other"
+          }
+        ],
+        "valueSelectionStrategy": "ORIGINAL_VALUE"
+      }
+    ]
+  }
+}
